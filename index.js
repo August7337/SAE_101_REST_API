@@ -58,6 +58,6 @@ process.on('SIGINT', () => {
     });
 });
 
-app.listen(port, '0.0.0.0', () => {
+app.listen(port, '::', () => {
     console.log(`Le serveur est accessible sur le port : ${port}`);
 });
